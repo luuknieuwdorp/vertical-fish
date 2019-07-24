@@ -1,8 +1,17 @@
 # Vertical
 
-A minimal git-aware prompt for the
-[fish shell](https://github.com/fish-shell/fish-shell) with a definitive 
+A clean and git-aware prompt for the
+[fish shell](https://github.com/fish-shell/fish-shell) with a definitive
 vertical line.
+
+Reasons why you should use Vertical:
+
+* Features a unique vertical line prompt
+* Highly configurable
+* Git-aware
+* Displays the duration of the previous command
+
+This is what it looks like out of the box:
 
 ![Screenshot](.image/screenshot.png?raw=true)
 
