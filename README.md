@@ -1,8 +1,8 @@
 # Vertical
 
 A minimal git-aware prompt for the
-[fish](https://github.com/fish-shell/fish-shell) with a definitive vertical
-line.
+[fish shell](https://github.com/fish-shell/fish-shell) with a definitive 
+vertical line.
 
 ![Screenshot](.image/screenshot.png?raw=true)
 
