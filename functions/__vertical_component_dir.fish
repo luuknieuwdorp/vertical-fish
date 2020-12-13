@@ -1,7 +1,8 @@
 function __vertical_component_dir -d "Print the directory"
     # Options
-    __vertical_util_set VERTICAL_DIR_COLOR      blue --bold
-    __vertical_util_set VERTICAL_DIR_PREFIX     " "
+    __vertical_util_set VERTICAL_DIR_COLOR      88c0d0
+    __vertical_util_set VERTICAL_DIR_PREFIX     "["
+    __vertical_util_set VERTICAL_DIR_SUFFIX     "]"
     __vertical_util_set VERTICAL_DIR_TRUNC_GIT  true
     __vertical_util_set VERTICAL_DIR_TRUNC_HOME true
 
@@ -23,6 +24,6 @@ function __vertical_component_dir -d "Print the directory"
     end
 
     set_color $VERTICAL_DIR_COLOR
-    echo -ens $VERTICAL_DIR_PREFIX $dir
+    echo -ens $VERTICAL_DIR_PREFIX $dir $VERTICAL_DIR_SUFFIX
     set_color $VERTICAL_COLOR_NORMAL
 end

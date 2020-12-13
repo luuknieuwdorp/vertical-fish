@@ -1,6 +1,6 @@
 function __vertical_component_vi_mode -d "Print the VI mode indicator"
     # Options
-    __vertical_util_set VERTICAL_VI_MODE_COLOR           yellow --bold
+    __vertical_util_set VERTICAL_VI_MODE_COLOR           yellow
     __vertical_util_set VERTICAL_VI_MODE_SHOW            true
     __vertical_util_set VERTICAL_VI_MODE_SYM_INSERT      ""
     __vertical_util_set VERTICAL_VI_MODE_SYM_NORMAL      "[N] "

@@ -1,8 +1,8 @@
 function __vertical_component_vert -d "Print the vertical bar"
     # Options
     __vertical_util_set VERTICAL_VERT_PREFIX        "│"
-    __vertical_util_set VERTICAL_VERT_COLOR_SUCCESS green
-    __vertical_util_set VERTICAL_VERT_COLOR_FAILURE red
+    __vertical_util_set VERTICAL_VERT_COLOR_SUCCESS a3be8c
+    __vertical_util_set VERTICAL_VERT_COLOR_FAILURE bf616a
 
     if [ $__vertical_exit_code -eq 0 ]
         set_color $VERTICAL_VERT_COLOR_SUCCESS

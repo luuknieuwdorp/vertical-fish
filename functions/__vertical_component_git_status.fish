@@ -1,7 +1,8 @@
 function __vertical_component_git_status -d "Print the git status"
     # Options
-    __vertical_util_set VERTICAL_GIT_STATUS_COLOR         cyan --bold
+    __vertical_util_set VERTICAL_GIT_STATUS_COLOR         cyan
     __vertical_util_set VERTICAL_GIT_STATUS_PREFIX        " ["
+    __vertical_util_set VERTICAL_GIT_SHOW                 true
     __vertical_util_set VERTICAL_GIT_STATUS_SHOW          true
     __vertical_util_set VERTICAL_GIT_STATUS_SUFFIX        "]"
     __vertical_util_set VERTICAL_GIT_STATUS_SYM_ADDED     "+"

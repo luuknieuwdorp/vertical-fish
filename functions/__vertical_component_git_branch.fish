@@ -1,7 +1,8 @@
 function __vertical_component_git_branch -d "Print the git branch"
     # Options
-    __vertical_util_set VERTICAL_GIT_BRANCH_COLOR  magenta --bold
-    __vertical_util_set VERTICAL_GIT_BRANCH_PREFIX " "
+    __vertical_util_set VERTICAL_GIT_BRANCH_COLOR  magenta
+    __vertical_util_set VERTICAL_GIT_BRANCH_PREFIX "["
+    __vertical_util_set VERTICAL_GIT_BRANCH_SUFFIX "]"
     __vertical_util_set VERTICAL_GIT_SHOW          true
 
     not __vertical_util_is_git; and return
@@ -9,6 +10,6 @@ function __vertical_component_git_branch -d "Print the git branch"
 
     set -l branch (command git rev-parse --abbrev-ref HEAD ^ /dev/null)
     set_color $VERTICAL_GIT_BRANCH_COLOR
-    echo -ens $VERTICAL_GIT_BRANCH_PREFIX$branch
+    echo -ens $VERTICAL_GIT_BRANCH_PREFIX $branch $VERTICAL_GIT_BRANCH_SUFFIX
     set_color $VERTICAL_COLOR_NORMAL
 end
