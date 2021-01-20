@@ -27,7 +27,7 @@ This is what it looks like out of the box:
 ### [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```sh
-fisher add luuknieuwdorp/vertical-fish
+fisher install luuknieuwdorp/vertical-fish
 ```
 
 ## Configuration
