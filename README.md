@@ -1,8 +1,10 @@
 # Vertical
 
-A clean and git-aware prompt for the
+A fork of the clean and git-aware prompt for the
 [fish shell](https://github.com/fish-shell/fish-shell) with a definitive
-vertical line.
+vertical line by [Adam Christiansen](https://github.com/AdamChristiansen/vertical-fish).
+
+The scope of this fork is to re-order some elements, add suffixes and change some of the looks like colors and when bold vs. non bold text appears.
 
 Reasons why you should use Vertical:
 
@@ -25,7 +27,7 @@ This is what it looks like out of the box:
 ### [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```sh
-fisher add AdamChristiansen/vertical-fish
+fisher add luuknieuwdorp/vertical-fish
 ```
 
 ## Configuration
